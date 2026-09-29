@@ -1,0 +1,16 @@
+[package]
+name = "glyphshift-adapter-gdiplus"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+glyphshift-adapter-sdk = { path = "../../../../../.sdk/crates/adapters/platform/sdk" }
+glyphshift-domain = { path = "../../../../../.sdk/crates/core/domain" }
+
+[lints]
+workspace = true

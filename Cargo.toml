@@ -1,0 +1,19 @@
+[workspace]
+members = [
+  "crates/adapters/implementations/native/gdiplus",
+  "crates/adapters/implementations/native/gdiplus-native",
+]
+exclude = [".sdk"]
+resolver = "2"
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "GPL-3.0-only"
+publish = false
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[patch.crates-io]
+retour = { path = ".sdk/vendor/retour" }

@@ -1,0 +1,12 @@
+{
+  "schema": "glyphshift.adapter-extraction/1",
+  "source_repository": "https://github.com/glyphshift/glyphshift",
+  "source_commit": "8c09fd6a2f9b21d910c276c92fb4d4ee0a5c6c82",
+  "source_paths": [
+    "crates/adapters/implementations/native/gdiplus",
+    "crates/adapters/implementations/native/gdiplus-native"
+  ],
+  "adapter_ids": [
+    "windows.gdiplus.draw-string"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "glyphshift.adapter-project/1",
+  "package_id": "glyphshift-adapter-gdiplus",
+  "version": [
+    1,
+    0,
+    0
+  ],
+  "adapters": [
+    {
+      "id": "windows.gdiplus.draw-string",
+      "name": "GdipDrawString",
+      "summary": "适合使用 GDI+ 的自绘面板和图形界面",
+      "technology": "GDI+",
+      "technicalTarget": "gdiplus.dll!GdipDrawString",
+      "documentationUrl": "https://learn.microsoft.com/en-us/windows/win32/gdiplus/-gdiplus-drawing-text-use",
+      "architectures": [
+        "x86_64",
+        "x86"
+      ],
+      "dll": "glyphshift_adapter_gdiplus_native.dll",
+      "process_resident_after_deactivate": false,
+      "build_script": null
+    }
+  ],
+  "crates": [
+    {
+      "name": "glyphshift-adapter-gdiplus",
+      "path": "crates/adapters/implementations/native/gdiplus",
+      "architectures": [
+        "x86_64",
+        "x86"
+      ]
+    },
+    {
+      "name": "glyphshift-adapter-gdiplus-native",
+      "path": "crates/adapters/implementations/native/gdiplus-native",
+      "architectures": [
+        "x86_64",
+        "x86"
+      ]
+    }
+  ],
+  "notices": []
+}

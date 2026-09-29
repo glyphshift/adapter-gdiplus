@@ -1,0 +1,9 @@
+/flightdeck/
+/local-test/
+/.sdk/
+/.sdk-staging-*/
+/target/
+**/__pycache__/
+*.tmp
+**/bin/
+**/obj/
