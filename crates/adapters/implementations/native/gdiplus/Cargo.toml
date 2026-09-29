@@ -9,8 +9,8 @@ publish.workspace = true
 path = "src/lib.rs"
 
 [dependencies]
-glyphshift-adapter-sdk = { path = "../../../../../.sdk/crates/adapters/platform/sdk" }
-glyphshift-domain = { path = "../../../../../.sdk/crates/core/domain" }
+glyphshift-adapter-sdk = { git = "https://github.com/glyphshift/glyphshift.git", tag = "adapter-sdk-v0.1.0" }
+glyphshift-domain = { git = "https://github.com/glyphshift/glyphshift.git", tag = "adapter-sdk-v0.1.0" }
 
 [lints]
 workspace = true

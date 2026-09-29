@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 glyphshift-adapter-gdiplus = { path = "../gdiplus" }
-glyphshift-adapter-native-abi = { path = "../../../../../.sdk/crates/adapters/platform/native-abi" }
+glyphshift-adapter-native-abi = { git = "https://github.com/glyphshift/glyphshift.git", tag = "adapter-sdk-v0.1.0" }
 retour = "0.3"
 
 [dependencies.windows]

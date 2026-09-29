@@ -17,3 +17,8 @@ unsafe_code = "forbid"
 
 [patch.crates-io]
 retour = { path = ".sdk/vendor/retour" }
+
+[patch."https://github.com/glyphshift/glyphshift.git"]
+glyphshift-adapter-sdk = { path = ".sdk/crates/adapters/platform/sdk" }
+glyphshift-adapter-native-abi = { path = ".sdk/crates/adapters/platform/native-abi" }
+glyphshift-domain = { path = ".sdk/crates/core/domain" }
